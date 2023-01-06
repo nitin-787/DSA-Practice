@@ -1,6 +1,6 @@
 package conditonal_loops;
 
-// this file contains all the assignment solution related "area",
+// this file contains all the assignment solution related "perimeter",
 // I cross checked all of the formulas from google...
 public class Perimeter {
     public static void main(String[] args) {
