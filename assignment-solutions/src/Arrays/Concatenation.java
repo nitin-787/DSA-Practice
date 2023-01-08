@@ -1,5 +1,7 @@
 package Arrays;
 
+// link : https://leetcode.com/problems/concatenation-of-array/
+// detailed solution link : https://leetcode.com/problems/concatenation-of-array/solutions/3019692/on-solution-with-explanation-on-pen-paper/ 
 import java.util.Arrays;
 
 class Concatenation {
