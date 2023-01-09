@@ -3,6 +3,7 @@ import java.util.*;
 
 // Ques : 1920. Build Array from Permutation
 // Ques Link : https://leetcode.com/problems/build-array-from-permutation/
+// Solution : https://leetcode.com/problems/build-array-from-permutation/solutions/3014208/easy-solution-for-any-language/
 public class BuildArray {
     public static void main(String[] args) {
         int[] nums = {0,1,2,5,3,4};
