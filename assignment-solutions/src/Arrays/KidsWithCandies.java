@@ -14,6 +14,17 @@ public class KidsWithCandies {
     }
 
     static List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+
+//        int largest = 0, i = 0;
+//
+//        while (i < candies.length) {
+//            largest = Math.max(largest, candies[i]);
+//            candies[i] = candies[i] + extraCandies >= largest;
+//            i++;
+//        }
+//        return Arrays.asList(candies);
+//    }
+
         // finding the largest element first
         int start = 0, end = candies.length, largest = 0;
         while (start < end) {
