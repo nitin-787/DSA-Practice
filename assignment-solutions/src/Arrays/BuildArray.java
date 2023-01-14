@@ -1,5 +1,6 @@
 package Arrays;
-import java.util.*;
+
+import java.util.Arrays;
 
 // Ques : 1920. Build Array from Permutation
 // Ques Link : https://leetcode.com/problems/build-array-from-permutation/
