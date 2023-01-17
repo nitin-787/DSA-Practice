@@ -5,7 +5,7 @@ package Arrays;
 // solution link : https://leetcode.com/problems/count-items-matching-a-rule/solutions/3059857/easy-java-solution/
 
 import java.util.*;
-class countMatches {
+class CountMatches {
     public static void main(String[] args) {
         List<List<String>> list = new ArrayList<>();
         list.add(Arrays.asList("phone","blue","pixel"));
