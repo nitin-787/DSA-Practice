@@ -1,5 +1,7 @@
 package Arrays;
 
+// Ques : 1295. Find Numbers with Even Number of Digits
+// link : https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 class NumberOfEvenDigit {
     public static void main(String[] args) {
         int[] arr = {12,345,2,6,7896};
