@@ -1,7 +1,8 @@
 package Searching;
 
-// Ques : 374. Guess Number Higher or Lower
-//link : https://leetcode.com/problems/guess-number-higher-or-lower/
+// Ques : 278. First Bad Version
+// link : https://leetcode.com/problems/first-bad-version/
+// detailed solution : https://leetcode.com/problems/first-bad-version/solutions/3119258/1ms-runtime-fast-solution/
 public class GuessGame {
     public static void main(String[] args) {
         System.out.println(guessNumber(10));
