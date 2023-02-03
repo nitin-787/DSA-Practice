@@ -2,7 +2,7 @@ package Searching;
 
 // Ques : 441. Arranging Coins
 // link : https://leetcode.com/problems/arranging-coins/
-class Solution {
+class ArrangingCoins {
     public static void main(String[] args) {
         int n = 7;
         System.out.println(arrangeCoins(n));
@@ -22,7 +22,6 @@ class Solution {
                 end = mid-1;
             }
         }
-
         return (int)end;
     }
 }
