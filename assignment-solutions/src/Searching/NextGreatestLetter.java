@@ -1,5 +1,7 @@
 package Searching;
 
+// Ques : 744. Find Smallest Letter Greater Than Target
+// link : https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/
 class NextGreatestLetter {
     public static void main(String[] args) {
         char[] letters = {'c','e','f'};
