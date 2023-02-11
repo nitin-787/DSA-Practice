@@ -15,10 +15,12 @@ public class Intersection {
     static int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set = new HashSet<>();
         Set<Integer> intersect = new HashSet<>();
-        for (int num : nums1) {
+        for (int i = 0; i < nums1.length; i++) {
+            int num = nums1[i];
             set.add(num);
         }
-        for (int num : nums2) {
+        for (int i = 0; i < nums2.length; i++) {
+            int num = nums2[i];
             if (set.contains(num)) {
                 intersect.add(num);
             }
