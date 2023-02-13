@@ -1,38 +1,20 @@
 package Searching;
 
-// Ques : 888. Fair Candy Swap
-// link : https://leetcode.com/problems/fair-candy-swap/
-
-import java.util.Arrays;
-import java.util.HashSet;
-
+// Ques : 1346. Check If N and Its Double Exist
+// link : https://leetcode.com/problems/check-if-n-and-its-double-exist/
 class Solution {
     public static void main(String[] args) {
-        int[] aliceSizes = {1,1};
-        int[] bobSizes = {2,2};
-        System.out.println(Arrays.toString(fairCandySwap(aliceSizes, bobSizes)));
+        int[] ans = {7,1,14,11};
+        System.out.println(checkIfExist(ans));
     }
-    public static int[] fairCandySwap(int[] A, int[] B) {
-        int[] result = new int[2];
-        int sumA = 0, sumB = 0;
-        for (int a : A) {
-            sumA += a;
-        }
-        for (int b : B) {
-            sumB += b;
-        }
-        int diff = (sumA - sumB) / 2;
-        HashSet<Integer> setB = new HashSet<>();
-        for (int b : B) {
-            setB.add(b);
-        }
-        for (int a : A) {
-            if (setB.contains(a - diff)) {
-                result[0] = a;
-                result[1] = a - diff;
-                break;
+    public static boolean checkIfExist(int[] arr) {
+            for (int i = 0; i < arr.length; i++) {
+                for (int j = 0; j < arr.length; j++) {
+                    if (i != j && arr[i] == 2 * arr[j]) {
+                        return true;
+                    }
+                }
             }
-        }
-        return result;
+            return false;
     }
 }
