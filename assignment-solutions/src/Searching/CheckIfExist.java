@@ -2,7 +2,7 @@ package Searching;
 
 // Ques : 1346. Check If N and Its Double Exist
 // link : https://leetcode.com/problems/check-if-n-and-its-double-exist/
-class Solution {
+class CheckIfExist {
     public static void main(String[] args) {
         int[] ans = {7,1,14,11};
         System.out.println(checkIfExist(ans));
