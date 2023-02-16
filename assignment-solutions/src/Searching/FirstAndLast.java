@@ -7,9 +7,10 @@ import java.util.Arrays;
 
 public class FirstAndLast {
     public static void main(String[] args) {
-        int[] arr = {1,1,2,2,6,6,7,7,9,9};
-        int target = 7;
+        int[] arr = {5,7,7,8,8,10};
+        int target = 8;
         System.out.println(Arrays.toString(firstandlast(arr, target)));
+        System.out.println(Arrays.toString(fisrstandlastBS(arr, target)));
     }
 
     static int[] firstandlast(int[] nums, int target) {
@@ -43,5 +44,40 @@ public class FirstAndLast {
             }
         }
         return arr;
+    }
+
+    // O(log n)  solution
+    static int[] fisrstandlastBS(int[] arr, int target) {
+        int start = 0, end = arr.length -1;
+        int[] ans = {-1,-1};
+
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+
+            if (arr[mid] < target) {
+                start = mid + 1;
+            } else if (arr[mid] > target) {
+                end = mid - 1;
+            } else {
+                ans[0] = mid;
+                ans[1] = mid;
+
+                int left = mid - 1;
+
+                while (left >= 0 && arr[left] == target) {
+                    ans[0] = left;
+                    left--;
+                }
+
+                int right = mid + 1;
+
+                while (right < arr.length && arr[right] == target) {
+                    ans[1] = right;
+                    right++;
+                }
+                return ans;
+            }
+        }
+        return ans;
     }
 }
