@@ -5,7 +5,7 @@ import java.util.*;
 // Ques  : 1122. Relative Sort Array
 // link : https://leetcode.com/problems/relative-sort-array/
 
-class Solution {
+class RelativeSortArray {
     public static void main(String[] args) {
         int[] arr1 = {2,3,1,3,2,4,6,7,9,2,19};
         int[] arr2 = {1,4,3,9,6};
