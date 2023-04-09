@@ -2,7 +2,7 @@ package String;
 
 // Ques: 709. To Lower Case (without using inbuilt function)
 // link: https://leetcode.com/problems/to-lower-case/
-class Solution {
+class ToLowerCase {
     public static void main(String[] args) {
         String s = "HELLO";
         System.out.println(toLowerCase(s));
