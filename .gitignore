@@ -1,0 +1,5 @@
+# Ignore compiled output files
+/assignment-solutions/out/
+
+# Ignore IntelliJ IDEA IDE configuration files
+/assignment-solutions/.idea/
