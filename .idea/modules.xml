@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lectures/05-first-idea-program/05-first-idea-program.iml" filepath="$PROJECT_DIR$/lectures/05-first-idea-program/05-first-idea-program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/06-conditions-loops/06-conditions-loops.iml" filepath="$PROJECT_DIR$/lectures/06-conditions-loops/06-conditions-loops.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/07-method/07-method.iml" filepath="$PROJECT_DIR$/lectures/07-method/07-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-DSA-Practice.iml" filepath="$PROJECT_DIR$/.idea/Java-DSA-Practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-solutions/assignment-solutions.iml" filepath="$PROJECT_DIR$/assignment-solutions/assignment-solutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lectures/05-first-idea-program/idea-program/idea-program.iml" filepath="$PROJECT_DIR$/lectures/05-first-idea-program/idea-program/idea-program.iml" />
+    </modules>
+  </component>
+</project>
