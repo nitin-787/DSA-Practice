@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//link : https://www.hackerrank.com/challenges/compare-the-triplets/problem?isFullScreen=true
+
 public class CompareTheTriplets {
     public static void main(String[] args) {
         List<Integer> list1 = Arrays.asList(5,6,7);

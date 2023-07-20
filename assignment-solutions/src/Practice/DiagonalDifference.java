@@ -2,6 +2,8 @@ package Practice;
 
 import java.util.*;
 
+//link : https://www.hackerrank.com/challenges/diagonal-difference/problem?isFullScreen=true
+
 public class DiagonalDifference {
     public static void main(String[] args) {
         List<List<Integer>> matrix = new ArrayList<>(List.of(

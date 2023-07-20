@@ -1,6 +1,6 @@
 package Practice;
 
-// https://leetcode.com/problems/binary-search/
+//link : https://leetcode.com/problems/binary-search/
 
 class BinarySearch {
 	public static void main(String[] args) {

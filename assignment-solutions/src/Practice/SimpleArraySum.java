@@ -1,6 +1,8 @@
 package Practice;
 import java.util.*;
 
+//link : https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
+
 public class SimpleArraySum {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 10, 11);
