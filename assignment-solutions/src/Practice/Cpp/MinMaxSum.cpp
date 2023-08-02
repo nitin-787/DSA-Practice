@@ -10,7 +10,7 @@ void miniMaxSum(vector<int>& arr) {
     for (int num : arr) {
         sum += num;
     }
-    sort(arr, arr-5);
+    sort(arr, arr.size());
     cout << (sum - arr[4]) << " " << (sum - arr[0]) << endl;
 }
 
