@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// link: https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
+// link: https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true         
 
 void bonAppetit(const vector<int>& bill, int k, int b) {
     int totalBill = 0;
@@ -11,7 +11,7 @@ void bonAppetit(const vector<int>& bill, int k, int b) {
             totalBill += bill[i];
         }
     }
-
+        
     int annaPortion = totalBill / 2;
     if (b == annaPortion) {
         cout << "Bon Appetit" << endl;
