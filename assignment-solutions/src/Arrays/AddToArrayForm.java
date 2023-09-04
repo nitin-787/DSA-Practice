@@ -11,18 +11,10 @@ class AddToArrayForm {
         int k = 181;
         System.out.println(addToArrayForm(arr, k));
     }
-    static public List<Integer> addToArrayForm(int[] num, int k) {
+    static public List<Integer> addToArrayForm(int[]  arr, int k) {
         List<Integer> res = new ArrayList<>();
-        int n = num.length;
-        int carry = k;
-        for (int i = n - 1; i >= 0; i--) {
-            carry += num[i];
-            res.add(0, carry % 10);
-            carry /= 10;
-        }
-        while (carry > 0) {
-            res.add(0, carry % 10);
-            carry /= 10;
+        for (int i =  arr.length - 1; i > 0; i++) {
+            k += arr[i];
         }
         return res;
     }

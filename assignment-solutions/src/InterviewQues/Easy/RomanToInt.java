@@ -2,7 +2,7 @@ package InterviewQues.Easy;
 
 public class RomanToInt {
     public static void main(String[] args) {
-        System.out.println(romanToInt("MCMXCIV"));
+        System.out.println(romanToInt("MCM"));
     }
 
      static int romanToInt(String s) {
@@ -17,8 +17,10 @@ public class RomanToInt {
                 case 'D' -> num = 500;
                 case 'M' -> num = 1000;
             }
-            if (4 * num < ans) ans -= num;
-            else ans += num;
+            if (num < ans)  {
+                ans = ans -  num;
+            }
+            else ans = ans + num;
         }
         return ans;
     }
