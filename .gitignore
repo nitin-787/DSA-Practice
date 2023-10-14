@@ -3,3 +3,5 @@
 
 # Ignore IntelliJ IDEA IDE configuration files
 /assignment-solutions/.idea/
+
+/out/
